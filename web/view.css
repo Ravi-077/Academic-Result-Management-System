@@ -1,0 +1,33 @@
+body{
+   
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-technical-electric-image_443494.jpg');
+        background-size: cover;
+        
+      
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-right: 35px;
+}
+table{
+    color: wheat;
+    font-size: 25px;
+    margin-left: 270px;
+    margin-top: 50px;
+    border: 2px solid wheat;
+    background: linear-gradient(to right, #833AB4, #FD1D1D, #F56040);
+}
+td{
+    
+     border-right: 2px solid wheat;
+    border-left: 2px solid wheat;
+    border-top: 2px solid wheat;
+    border-bottom: 2px solid wheat;
+    padding: 15px;
+}

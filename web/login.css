@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.form{
+    width: 250px;
+    height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   position: absolute;
+    top: 150px;
+    left: 300px;
+    transform: translate(0%,-5%);
+    
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    padding: 25px;
+}
+
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+  
+    background: transparent;
+    border-bottom: 2px solid #2bff00;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline:none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+   
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+     font-size: 20px; 
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    
+   background-image: url("https://t3.ftcdn.net/jpg/05/11/82/34/360_F_511823430_6leg9GuGwXHl91HhQBrOvBa1yEy4R1QL.jpg");
+    background-size: cover;
+    
+  
+}
+ion-icon:hover{
+    color: #ff7200;
+}  
+
+.second{
+    width: 250px;
+    height: 380px;
+    /*background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    */position: absolute;
+    top: 19px;
+    left: 300px;
+    transform: translate(0%,-5%);
+    border-radius: 15px;
+    padding: px;
+    
+}
+.second img{
+   /* border: 5px solid black;
+*/border: 3px solid #000000d0; 
+border-left: none;
+background-size: cover;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+.form h3{
+    width: 150px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 15px;
+    
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+}
+.form2 label{
+    color: white;
+    font-size: 15px;
+}
+.hidden{
+    display: none;
+}

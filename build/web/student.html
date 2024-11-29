@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body >
+    
+    
+    <div class="form">
+        <h2>Login Here</h2>
+        <input type="email" name="email" placeholder="Enter Email Here">
+        <input type="password" name="" placeholder="Enter Password Here">
+        <h3>Are you a student?</h2>
+            <div class="form2">
+    <form>
+        <label>
+            <input type="radio" name="student" value="yes" onclick="toggleRollNumber(true)"> Yes
+        </label>
+        <label>
+            <input type="radio" name="student" value="no" onclick="toggleRollNumber(false)"> No
+        </label>
+        <br><br>
+        <div id="rollNumberDiv" class="hidden">
+            
+            <input type="text" id="rollNumber" name="rollNumber"placeholder="Enter your Roll Number:">
+        </div>
+       
+    </form>
+
+    <script>
+        function toggleRollNumber(show) {
+            const rollNumberDiv = document.getElementById('rollNumberDiv');
+            if (show) {
+                rollNumberDiv.classList.remove('hidden');
+            } else {
+                rollNumberDiv.classList.add('hidden');
+            }
+        }
+    </script>
+        <button class="btnn"><a href="login.html">Login</a></button>
+    
+        <p class="link">Don't have an account<br>
+        <a href="reg.html">Register Now </a> here</a></p>
+        <p class="liw">Log in with</p>
+    </div>
+        <div class="second"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_T9jfdxrbLqvE5d-xoRoUB6c283qb47KLg&s" style="height: 425px; width: 450px;"></div>
+    
+    </div>
+
+</body>
+</html>
